@@ -16,5 +16,21 @@ Button 4 Xpath:  driver.findElement(By.xpath("//button[@onclick='myPromp()']")
 
 
 
+From Buttons menu:
+==================
+
+click Me button xpath:
+----------------------
+driver.findElement(By.xpath("//button[@onclick='showDiv()']")
+
+Right Click Me button Xpath:
+---------------------------
+driver.findElement(By.xpath("//button[@onclick='fn(event);']")
+
+Double Click Me button:
+-----------------------
+driver.findElement(By.xpath("//button[@ondblclick='myDoubleclick()']")
+
+
 
 
